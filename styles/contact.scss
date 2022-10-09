@@ -1,0 +1,64 @@
+@use 'fonts';
+@import '_header';
+@import '_footer';
+
+body {
+    width: 1360px;
+    height: 1375px;
+    background: #FFFFFF;
+}
+
+.main-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1110px;
+    height: 300px;
+    align-items: flex-start;
+}
+
+.title1 {
+    width: 200px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.text-1 {
+    width: 445px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 475px;
+    height: 291px;
+    align-items: flex-start;
+
+}
+
+.form-elements {
+    font-weight: 700;
+    font-size: 16px;
+    min-width: 68px;
+}
+
+
+hr.solid {
+    width: 400px;
+}
+
+.btn-submit {
+    color: #FFFFFF;
+    height: 50px;
+    width: 125px;
+    border-radius: 0px;
+    background: #4A4FF2;
+}
+
+.map {
+    width: 1110px;
+    height: 570px;
+}
