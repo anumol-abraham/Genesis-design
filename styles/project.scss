@@ -1,52 +1,96 @@
-body{
-height: 2068px;
-width: 1360px;
-left: 1560px;
-top: 0px;
-border-radius: 0px;
-background: #FFFFFF;
-}
-.head {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-    margin-top: 0px;
-    width: 1109px;
-    height: 23px;
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    color: #111111;
-}
-.title1{
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 55px;
-}
-.girl{
-width: 356px;
-height: 537px;
-}
-.footer {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-    width: 1109px;
-    height: 23px;
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
-    /* identical to box height */
-    letter-spacing: -0.346154px;
-    color: #111111;
+@use 'fonts';
+@import 'header';
+@import 'footer';
 
+body {
+    height: 2068px;
+    width: 1360px;
+    left: 1560px;
+    top: 0px;
+    border-radius: 0px;
+    background: #FFFFFF;
+}
+
+.title-flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.title1 {
+    font-size: 40px;
+    width: 475px;
+    height: 110px;
+}
+
+.para-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 635px;
+}
+
+.details {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 260px;
+    height: 343px;
+    align-items: flex-start;
+}
+
+.text-1 {
+    font-weight: normal;
+    width: 80px;
+}
+
+.text-2 {
+    font-weight: bold;
+    width: 160px;
+}
+
+.hr-solid {
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+}
+
+.girl {
+    width: 1110px;
+    height: 660px;
+}
+
+.gridbox {
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr, 1fr, 1fr);
+    grid-template-rows: repeat(1fr, 1fr);
+    width: 1110px;
+    height: 350px;
+    grid-gap: 10px;
+    object-fit: cover;
+}
+
+.grid__element {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-1 {
+    grid-row: 1/ 2;
+    grid-column: 1 / 2;
+}
+
+.img-2 {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+.img-3 {
+    grid-row: 1/ 2;
+    grid-column: 3 / 4;
+}
+
+.para-2 {
+    width: 1109px;
 }

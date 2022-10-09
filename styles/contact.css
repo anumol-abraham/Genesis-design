@@ -1,0 +1,124 @@
+font {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+}
+
+head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+  margin-top: 0px;
+  width: 1109px;
+  height: 23px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #111111;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  width: 1109px;
+  height: 23px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.346154px;
+  color: #111111;
+}
+
+body {
+  width: 1360px;
+  height: 1375px;
+  background: #FFFFFF;
+}
+
+.main-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 1110px;
+  height: 300px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.title1 {
+  width: 200px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.text-1 {
+  width: 445px;
+}
+
+.container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 475px;
+  height: 291px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.form-elements {
+  font-weight: 700;
+  font-size: 16px;
+  min-width: 68px;
+}
+
+hr.solid {
+  width: 400px;
+}
+
+.btn-submit {
+  color: #FFFFFF;
+  height: 50px;
+  width: 125px;
+  border-radius: 0px;
+  background: #4A4FF2;
+}
+
+.map {
+  width: 1110px;
+  height: 570px;
+}
